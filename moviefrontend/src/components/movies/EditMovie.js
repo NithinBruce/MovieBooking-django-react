@@ -31,7 +31,7 @@ function EditPost() {
         setShowtime(
           response.data.showTimes.map((time) => ({
             value: time,
-            label: `${time} AM`,
+            label: `${time} `,
           }))
         );
 
